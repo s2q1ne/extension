@@ -82,7 +82,7 @@ function saveTheTab(){
 }
 
 saveTab.onclick = saveTheTab;
-refresh_btn.onclick = tabDataUpdateAndTabElementUpdate();
+refresh_btn.onclick = tabDataUpdateAndTabElementUpdate;
 update();
 
 
